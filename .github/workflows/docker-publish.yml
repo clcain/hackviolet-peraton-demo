@@ -39,7 +39,7 @@ jobs:
         with:
           images: |
             clcain/hackviolet-peraton-demo
-          tags:
+          tags: |
             latest
       
       - name: Build and push Docker images
